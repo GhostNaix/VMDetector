@@ -1,0 +1,10 @@
+C:\Users\Naix\Downloads\Compressed\VMDetector-master\VMDetector\VMDetector\bin\Debug\VMDetector.dll
+C:\Users\Naix\Downloads\Compressed\VMDetector-master\VMDetector\VMDetector\bin\Debug\VMDetector.pdb
+C:\Users\Naix\Downloads\Compressed\VMDetector-master\VMDetector\VMDetector\obj\Debug\VMDetector.csproj.AssemblyReference.cache
+C:\Users\Naix\Downloads\Compressed\VMDetector-master\VMDetector\VMDetector\obj\Debug\VMDetector.csproj.CoreCompileInputs.cache
+C:\Users\Naix\Downloads\Compressed\VMDetector-master\VMDetector\VMDetector\obj\Debug\VMDetector.pdb
+C:\Users\Naix\Downloads\Compressed\VMDetector-master\VMDetector\VMDetector\obj\Debug\VMDetector.exe
+C:\Users\Naix\Desktop\New folder\VMDetector-master\VMDetector\VMDetector\obj\Debug\VMDetector.csproj.AssemblyReference.cache
+C:\Users\Naix\Desktop\New folder\VMDetector-master\VMDetector\VMDetector\obj\Debug\VMDetector.csproj.CoreCompileInputs.cache
+C:\Users\Naix\Desktop\New folder\VMDetector-master\VMDetector\VMDetector\obj\Debug\VMDetector.exe
+C:\Users\Naix\Desktop\New folder\VMDetector-master\VMDetector\VMDetector\obj\Debug\VMDetector.pdb

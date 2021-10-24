@@ -1,6 +1,6 @@
 Detects whether your application is running inside a Virtual Machine.
 
-At a glance:
+~~At a glance:
 ---
 **C#:**
 ```csharp
@@ -13,7 +13,7 @@ if (VirtualMachineDetector.Assert())
 // check and obtain hypervisor name, if available
 if (VirtualMachineDetector.Assert(out hypervisorName))
    Console.WriteLine("DETECTED {0}!", hypervisorName);
-```
+```~~
 
 Platform status:
 ---
@@ -21,9 +21,9 @@ Platform status:
   - Microsoft Hyper-V under Windows Server Datacenter 2012 - **COMPLETED**
   - Microsoft Virtual PC - **COMPLETED**
   - QEMU - **PARTIALLY COMPLETED**
-  - VirtualBox - **IN PROGRESS**
-  - Xen - **TBD**
-  - Citrix - **TBD**
+  - VirtualBox - **IN PROGRESS** -NO
+  - Xen - **TBD** -NO
+  - Citrix - **TBD** - NO
 
 Compatibility:
 ---
@@ -31,10 +31,14 @@ Compatibility:
 
 Latest Changes:
 ---
+  - 2021-10-25 - Condensed Version
 	- 2017-07-17 - initial version
 
-Contact:
+Contact & Credits:
 ---
 
 Robson Felix
 	- robson dot felix at gmail dot com (_use this for everything that is not available via GitHub features_)
+  - Original Project Developer
+Naix
+  - Condensed The project and enabling easier debugging

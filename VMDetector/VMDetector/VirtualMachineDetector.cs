@@ -15,7 +15,7 @@ public class VirtualMachineDetector
     static IEnumerable<PnPEntity> _devices;
     static IEnumerable<WindowsService> _services;
 
-    static VirtualMachineDetector()
+    public VirtualMachineDetector()
     {
         _detectors = new IVirtualEnvironment[]
        {
@@ -71,7 +71,7 @@ public class VirtualMachineDetector
         #endregion
     }
 
-    public static bool Assert(out string name)
+    public bool Assert(out string name)
     {
         var processes = Process.GetProcesses()
                                .Select(p => p.ProcessName.ToLower())
@@ -87,7 +87,7 @@ public class VirtualMachineDetector
         return success;
     }
 
-    public static bool Assert()
+    public bool Assert()
     {
         string hypervisorName;
         return Assert(out hypervisorName);
